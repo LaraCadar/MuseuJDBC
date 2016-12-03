@@ -1,0 +1,177 @@
+@CHARSET "ISO-8859-1";
+body{
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+header{
+	background:#555;
+	position:fixed;
+	top:0;
+	width:100%;		
+	height:83px;
+	display:inline;		
+	vertical-align:top;
+	overflow:hidden;
+	color:#fff;
+}
+
+
+#logo{
+	vertical-align:middle;
+	margin-left:1em;
+	margin-right:1em;
+	float:left;
+	color:#fff;
+	font-family:Helvetica;	
+}
+
+#menu{
+	margin: auto;
+	vertical-align:baseline;
+}
+
+::selection {
+    color: #fff;
+    background: #555;
+}
+
+button{
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+label{
+	cursor:pointer;
+}
+
+input:focus{
+	background-color: #D3D3D3;
+}
+ 
+.send{
+	text-decoration:none;
+} 
+
+a.send:visited{
+	color:black;
+}
+
+ul{
+	list-style-type:none;
+	background-color: #555;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+}
+
+ li a {
+    text-align: center;
+	vertical-align:middle;
+    padding: 2em 3em;
+    text-decoration: none;
+	color: white;
+    display: block;	
+
+}
+
+li {
+    float: left;
+	width:auto;
+	height:auto;
+}
+
+li a.active{
+	background:#333;
+}
+
+li a:hover {
+    background-color: #666;
+}
+
+form{
+	width:auto;
+	height:auto;
+	overflow:hidden;
+	margin:100px;
+}
+
+.home{
+	width:96%;
+	height:auto;
+	overflow:hidden;
+	margin:100px 2%;
+	padding:10px;
+	position:absolute;
+	text-align: left;
+	text-overflow:ellipsis;
+	word-wrap: wrap;
+	word-break: keep-all;
+	z-index:-1;
+    box-sizing: border-box;
+	
+}
+.form{
+	padding:2em;
+	width:auto;
+	height:auto;
+}
+input:focus,  textarea:focus,date:focus , select:focus{
+    border-color: #333;
+    background-color: #f0f0f0;
+	font-weight: bold;
+}
+
+
+form {	
+    font-size: 15px;
+    max-width: 60%;
+	padding:2em;
+	margin:auto;
+	border-radius:5px;
+}
+
+.resultado{
+	
+}
+
+input,text, date, select {
+    max-width: 100%;
+	width:400px;
+    padding: 10px;	
+    color: black;
+	font-family: Verdana,Tahoma,sans-serif;
+    margin: 1em;
+    border-radius: 5px;
+    border: 1px solid;    
+    box-sizing: border-box;
+	resize: none;
+}
+
+input[type=textarea]{
+ 
+    max-width: 100%;
+	width:600px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+	
+}
+.conteudo{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	display:flex;	
+    flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
